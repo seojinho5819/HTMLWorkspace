@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>실습1</title>
+</head>
+<style>
+	#wrapper{
+	
+	border:2px solid black;
+	border-radius:10px;
+	height:600px;
+	width:800px;
+	margin:auto;
+
+	}
+
+	#box1{
+		background-color: red;
+		height:100px;
+
+
+	
+		}
+		#wrapper2{
+	
+	
+	height:400px;
+	width:800px;
+	margin:auto;
+
+	}
+	/*자식요소를 float한경우 div에는 overflow:hidden속성을 지정해야 문제발생하지 않음*/
+
+	#box2{
+		background-color: blue;
+		height:400px;
+		width:200px;
+		float:left;
+	
+	}
+	#box3{
+		background-color: green;
+		
+		height:400px;
+		width:500px;
+		float:right;
+		
+	}
+
+	
+	#box4{
+		background-color: yellow;
+		
+		height:100px;
+	
+		
+	
+	}
+</style>
+<body>
+	<div id="wrapper">
+		<div id="box1">
+		box1
+		</div>
+			<div id="wrapper2">
+				<div id="box2">
+				box2
+				</div>
+				<div id="box3">
+				box3
+				</div>
+			</div>
+		<div id="box4">
+		box4
+		</div>
+	</div>
+</body>
+</html>
